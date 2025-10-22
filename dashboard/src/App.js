@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import './App.css'; // Assurez-vous de mettre le CSS que tu as fourni dans App.css
+import './App.css'; // Assurez-vous que ton CSS est dans App.css
 
 function App() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      fetch('http://backend:8081/api/data') // Docker service backend
+      fetch('http://localhost:8081/api/data') // <-- correction ici
         .then(res => res.json())
         .then(d => setData(d))
-        .catch(err => console.log(err));
+        .catch(err => console.log('Erreur fetch:', err));
     }, 1000);
     return () => clearInterval(interval);
   }, []);

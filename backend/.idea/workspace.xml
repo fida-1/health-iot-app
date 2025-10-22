@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="113dba60-e951-4d1f-8d76-a2b42e9d1a8e" name="Changes" comment="" />
+    <list default="true" id="113dba60-e951-4d1f-8d76-a2b42e9d1a8e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/BackendIotApp (1)/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendIotApp (1)/.idea/BackendIotApp (1).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendIotApp (1)/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendIotApp (1)/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BackendIotApp (1)/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendIotApp (1)/BackendIotApp/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendIotApp (1)/BackendIotApp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendIotApp (1)/BackendIotApp/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendIotApp (1)/BackendIotApp/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendIotApp (1)/BackendIotApp/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendIotApp (1)/BackendIotApp/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendIotApp (1)/BackendIotApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BackendIotApp (1)/BackendIotApp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendIotApp (1)/BackendIotApp/src/main/java/com/healthiot/BackendIotApp/BackendIotAppApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendIotApp (1)/BackendIotApp/src/main/java/com/healthiot/BackendIotApp/controller/DataController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendIotApp (1)/BackendIotApp/src/main/java/com/healthiot/BackendIotApp/model/DataPostman.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendIotApp (1)/BackendIotApp/src/main/java/com/healthiot/BackendIotApp/repository/DataPostmanRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendIotApp (1)/BackendIotApp/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendIotApp (1)/BackendIotApp/src/test/java/com/healthiot/BackendIotApp/BackendIotAppApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dashboard/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../dashboard/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/Dockerfile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +43,9 @@
       </state>
     </system>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -33,9 +57,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/khamm/health-iot-app/backend/BackendIotApp (1)",
+    "last_opened_file_path": "C:/Users/khamm/health-iot-app/backend/BackendIotApp1",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"

@@ -1,3 +1,5 @@
+version: '3.8'
+
 services:
   postgres:
     image: postgres:15
@@ -9,32 +11,42 @@ services:
       - "5432:5432"
 
   backend:
-    build: ../backend
+    build:
+      context: "../backend/BackendIotApp1/BackendIotApp"
+      dockerfile: Dockerfile
     ports:
       - "8081:8081"
     depends_on:
       - postgres
 
   gateway:
-    build: ../gateway
+    build:
+      context: "../gateway"
+      dockerfile: Dockerfile
     ports:
       - "3000:3000"
     depends_on:
       - backend
 
   simulator:
-    build: ../simulator
+    build:
+      context: "../simulator"
+      dockerfile: Dockerfile
     depends_on:
       - gateway
 
   processor:
-    build: ../processor
+    build:
+      context: "../processor"
+      dockerfile: Dockerfile
     depends_on:
       - backend
       - postgres
 
   dashboard:
-    build: ../dashboard
+    build:
+      context: "../dashboard"
+      dockerfile: Dockerfile
     ports:
       - "3001:3000"
     depends_on:

@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:3001") // <-- autoriser le dashboard
+
 @RequestMapping("/api")
 public class DataController {
 
@@ -31,4 +33,10 @@ public class DataController {
 
         return ResponseEntity.ok("Data received and saved");
     }
+    @GetMapping("/data")
+    public ResponseEntity<Iterable<DataPostman>> getAllData() {
+        Iterable<DataPostman> data = repository.findAll();
+        return ResponseEntity.ok(data);
+    }
+
 }
