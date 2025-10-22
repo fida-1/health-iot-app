@@ -30,7 +30,7 @@ function App() {
       <main style={styles.main}>
         {/* Stats Cards */}
         <div style={styles.statsGrid}>
-          <StatCard icon="💓" title="Total Devices" value={data.length} />
+          <StatCard icon="⌚" title="Smartwatch Connected" value={1} />
           <StatCard
             icon="📈"
             title="Average ECG"
