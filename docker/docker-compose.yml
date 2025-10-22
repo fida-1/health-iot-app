@@ -1,0 +1,41 @@
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: health_iot_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: khammassi
+    ports:
+      - "5432:5432"
+
+  backend:
+    build: ../backend
+    ports:
+      - "8081:8081"
+    depends_on:
+      - postgres
+
+  gateway:
+    build: ../gateway
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+  simulator:
+    build: ../simulator
+    depends_on:
+      - gateway
+
+  processor:
+    build: ../processor
+    depends_on:
+      - backend
+      - postgres
+
+  dashboard:
+    build: ../dashboard
+    ports:
+      - "3001:3000"
+    depends_on:
+      - backend
